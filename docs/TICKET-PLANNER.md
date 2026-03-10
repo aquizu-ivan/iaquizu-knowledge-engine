@@ -3,7 +3,7 @@
 ## Estado actual del proyecto
 - Monorepo base creado con workspaces para `apps/*` y `packages/*`.
 - `TICKET-00 Foundation` en progreso.
-- Bloque B completado en la rama `ticket-00-foundation`.
+- Bloque C completado en la rama `ticket-00-foundation`.
 
 ## Ticket actual
 - Ticket: `TICKET-00 Foundation`
@@ -15,8 +15,11 @@
 | --- | --- | --- |
 | A | Definicion de alcance y estructura del monorepo | Done |
 | B | Bootstrap tecnico de web/api/packages/docs | Done |
-| C | Alineacion de convenciones de desarrollo iniciales | Planned |
+| C | Alineacion de convenciones de desarrollo iniciales | Done |
 | D | Cierre de foundation y checklist de handoff | Planned |
+
+## Siguiente bloque inmediato
+- `Bloque D`: cierre del `TICKET-00 Foundation` con checklist final y handoff.
 
 ## Tickets tentativos siguientes
 | Ticket | Nombre | Estado |
