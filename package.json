@@ -1,23 +1,13 @@
 {
   "name": "iaquizu-knowledge-engine",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aquizu-ivan/iaquizu-knowledge-engine.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aquizu-ivan/iaquizu-knowledge-engine/issues"
-  },
-  "homepage": "https://github.com/aquizu-ivan/iaquizu-knowledge-engine#readme"
+    "dev:web": "npm run dev -w apps/web",
+    "dev:api": "npm run dev -w apps/api"
+  }
 }
