@@ -1,4 +1,19 @@
-# iaquizu-knowledge-engine
+# IAQUIZU Knowledge Engine
+
+IAQUIZU Knowledge Engine es la base tecnica para una plataforma de conocimiento con `apps/web` (cliente) y `apps/api` (servicio HTTP), organizada en monorepo.
+
+## Estructura general
+
+```text
+apps/
+  web/
+  api/
+packages/
+  ui/
+  ai-engine/
+  knowledge-core/
+docs/
+```
 
 ## Instalacion
 
@@ -8,20 +23,25 @@ npm install
 
 ## Desarrollo
 
-### Correr web
-
 ```bash
+# web
 npm run dev:web
-```
 
-### Correr api
-
-```bash
+# api
 npm run dev:api
-```
 
-### Correr web + api en paralelo
-
-```bash
+# web + api
 npm run dev
 ```
+
+## Variables de entorno minimas actuales
+
+- `apps/api/.env.example`
+  - `PORT=4000`
+
+## Documentacion clave
+
+- `docs/PRODUCT-BLUEPRINT.md`
+- `docs/ARCHITECTURE.md`
+- `docs/DESIGN-SPEC.md`
+- `docs/TICKET-PLANNER.md`
