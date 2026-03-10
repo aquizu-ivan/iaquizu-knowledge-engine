@@ -1,0 +1,23 @@
+{
+  "name": "iaquizu-knowledge-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquizu-ivan/iaquizu-knowledge-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aquizu-ivan/iaquizu-knowledge-engine/issues"
+  },
+  "homepage": "https://github.com/aquizu-ivan/iaquizu-knowledge-engine#readme"
+}
