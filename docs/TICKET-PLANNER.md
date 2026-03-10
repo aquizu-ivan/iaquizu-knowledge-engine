@@ -2,26 +2,28 @@
 
 ## Estado actual del proyecto
 - Monorepo base creado con workspaces para `apps/*` y `packages/*`.
-- `TICKET-00 Foundation` en progreso.
-- Bloque B completado en la rama `ticket-00-foundation`.
+- `TICKET-00 Foundation` completo en la rama `ticket-00-foundation`.
 
 ## Ticket actual
 - Ticket: `TICKET-00 Foundation`
 - Objetivo: habilitar base tecnica y documental para comenzar desarrollo incremental.
-- Estado general: `In Progress`
+- Estado general: `Ready to close`
 
 ## Bloques de TICKET-00
 | Bloque | Descripcion | Estado |
 | --- | --- | --- |
 | A | Definicion de alcance y estructura del monorepo | Done |
 | B | Bootstrap tecnico de web/api/packages/docs | Done |
-| C | Alineacion de convenciones de desarrollo iniciales | Planned |
-| D | Cierre de foundation y checklist de handoff | Planned |
+| C | Alineacion de convenciones de desarrollo iniciales | Done |
+| D | Cierre de foundation y checklist de handoff | Done |
+
+## Siguiente ticket
+- `TICKET-01 - Contrato API minimo + estructura base de backend` - `Planned`
 
 ## Tickets tentativos siguientes
 | Ticket | Nombre | Estado |
 | --- | --- | --- |
-| TICKET-01 | Knowledge Ingestion Seed | Planned |
+| TICKET-01 | Contrato API minimo + estructura base de backend | Planned |
 | TICKET-02 | Query Orchestration v1 | Planned |
 | TICKET-03 | Prompt and Response Contracts | Planned |
 | TICKET-04 | UI Shell and Navigation | Planned |
